@@ -19,4 +19,4 @@ app.use('/wedstrijden', wedstrijdenRouter);
 
 
 //Declare app started
-app.listen(3000, () => console.log('server started'));
+app.listen(5000, () => console.log('server started'));

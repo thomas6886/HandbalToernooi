@@ -9,9 +9,15 @@
     "mongoose": "^5.8.1",
     "nodemon": "^2.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "concurrently": "^5.0.2"
+  },
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
