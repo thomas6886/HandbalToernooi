@@ -1,0 +1,26 @@
+{
+  "name": "handbaltoernooi",
+  "version": "1.0.0",
+  "description": "Toernooi applicatie op basis van poules",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.1",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomas6886/HandbalToernooi.git"
+  },
+  "author": "Thomas Booijink",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomas6886/HandbalToernooi/issues"
+  },
+  "homepage": "https://github.com/thomas6886/HandbalToernooi#readme"
+}
